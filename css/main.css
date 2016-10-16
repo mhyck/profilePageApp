@@ -1,0 +1,42 @@
+* {
+	color: #fff;
+}
+#newProfile h1 {
+	text-shadow: 2px 2px 1px #000000;
+}
+#newProfile form > .form-group:first-child input {
+	display: inline;
+	width: 49.5%;
+}
+
+.container {
+	background-color: #6699ff;
+}
+
+#updatedProfile {
+	display: none;
+}
+
+#results {
+	color: #fff;
+	margin: 10px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.success {
+	background-color: #5cb85c;
+	transition: 0.3s all ease-in-out;
+}
+
+.failure {
+	background-color: #d9534f;
+	transition: 0.3s all ease-in-out;
+}
+
+/*media queries*/
+@media (max-width: 320px) {
+	#userfname {
+		margin-bottom: 10px;
+	}
+}
